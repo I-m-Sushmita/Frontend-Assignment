@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="notification">🎓 Admissions for batch 2025 are now open!</div>
+    <header>
+        <nav>
+            <h1 class="logo">N<span class="color">E</span>XIS</h1>
+            <ul class="nav-link">
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Admission & Fees</a></li>
+                <li><a href="#">Student Life</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon" onclick="toggleSidebar()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <a href="#" class="whatsapp-button"> <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                    alt="WhatsApp Logo" />WhatsApp us</a>
+        </nav>
+        <div id="sidebar" class="sidebar">
+            <a href="#" class="closebtn" onclick="toggleSidebar()">×</a>
+            <a href="#">Program</a>
+            <a href="#">Admission & Fees</a>
+            <a href="#">Student Life</a>
+            <a href="#">About Us</a>
+        </div>
+        <hr>
+
+        <section class="hero">
+            <div class="part1">
+                <div class="hero-images">
+                    <img class="img1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNl8ZDycEPHjR_fQAS4cspYBPZfvug0ueTjg&s"
+                        alt="Classroom image">
+                    <img class="img2"
+                        src="https://t3.ftcdn.net/jpg/03/88/97/92/360_F_388979227_lKgqMJPO5ExItAuN4tuwyPeiknwrR7t2.jpg"
+                        alt="Lecture image">
+                </div>
+            </div>
+            <div class="part2">
+                <h1>UG Programme in <br> <span class="highlight">Business</span> Management</h1>
+                <p>Innovative. Hands on. Disruptive</p>
+                <img style="transform: rotate(24deg);" src="https://static.vecteezy.com/system/resources/thumbnails/045/478/736/small/pink-pink-arrow-element-arrow-element-pink-arrow-element-arrow-icon-icon-png.png"
+                    alt="">
+            </div>
+            <div class="part3">
+                <div class="hero-images">
+                    <img class="img3"
+                        src="https://t4.ftcdn.net/jpg/06/95/93/99/360_F_695939921_vbYBjz5qVTf9zgAa0XfUsKISLXHa6Ju6.jpg"
+                        alt="Classroom image">
+                    <img class="img4"
+                        src="https://epe.brightspotcdn.com/dims4/default/f615efb/2147483647/strip/true/crop/3406x2311+0+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.us-east-1.amazonaws.com%2F53%2F66%2Fb17323e84e668e02e25d5b4a7a93%2Fteacher-students-classroom.jpg"
+                        alt="Lecture image">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="highlight-conteiner">
+        <div class="tabs">
+            <button class="tab-button active" onclick="showContent('highlights')">Highlights</button>
+            <button class="tab-button" onclick="showContent('curriculum')">Curriculum</button>
+            <button class="tab-button" onclick="showContent('faculty')">Faculty</button>
+            <button class="tab-button" onclick="showContent('week')">Week at Nexis</button>
+            <button class="tab-button" onclick="showContent('careers')">Careers</button>
+        </div>
+
+        <div class="content-container">
+            <div id="highlights" class="highlight-content active">
+                <div class="boxes">
+                    <div class="box">
+                        <h1>4 Semesters</h1>
+                        <p>4 months each</p>
+                    </div>
+                    <div class="box">
+                        <h1>10+</h1>
+                        <p>Real-world projects</p>
+                    </div>
+                    <div class="box">
+                        <h1>1 Year</h1>
+                        <p>Work experience</p>
+                    </div>
+                    <div class="box">
+                        <h1>3</h1>
+                        <p>Specialisations</p>
+                    </div>
+                    <div class="box">
+                        <h1>16</h1>
+                        <p>Core courses</p>
+                    </div>
+                    <div class="box">
+                        <h1>8</h1>
+                        <p>Everyday courses</p>
+                    </div>
+                    <div class="box">
+                        <h1>2 months</h1>
+                        <p>Career Bootcamp</p>
+                    </div>
+                    <div class="box">
+                        <h1>8 months</h1>
+                        <p>BYOB</p>
+                    </div>
+                </div>
+                <!-- Add more highlights content as needed -->
+            </div>
+            <div id="curriculum" class="highlight-content">
+                <div class="boxes">
+                    <div class="box">
+                        <h1>8 Modules</h1>
+                        <p>Comprehensive learning paths</p>
+                    </div>
+                    <div class="box">
+                        <h1>25+</h1>
+                        <p>Interactive labs and assignments</p>
+                    </div>
+                    <div class="box">
+                        <h1>1 Internship</h1>
+                        <p>Gain practical experience</p>
+                    </div>
+                    <div class="box">
+                        <h1>6 Tracks</h1>
+                        <p>Specialized focus areas</p>
+                    </div>
+                    <div class="box">
+                        <h1>18 Credits</h1>
+                        <p>Core curriculum</p>
+                    </div>
+                    <div class="box">
+                        <h1>5 Credits</h1>
+                        <p>Elective courses</p>
+                    </div>
+                    <div class="box">
+                        <h1>3 Months</h1>
+                        <p>Capstone Project</p>
+                    </div>
+                    <div class="box">
+                        <h1>1 Portfolio</h1>
+                        <p>Showcase your achievements</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="faculty" class="highlight-content">
+                <div class="boxes">
+                    <div class="box">
+                        <h1>50+ Experts</h1>
+                        <p>Renowned industry professionals</p>
+                    </div>
+                    <div class="box">
+                        <h1>10:1</h1>
+                        <p>Student-to-faculty ratio</p>
+                    </div>
+                    <div class="box">
+                        <h1>15 Years</h1>
+                        <p>Average teaching experience</p>
+                    </div>
+                    <div class="box">
+                        <h1>5 Fields</h1>
+                        <p>Diverse areas of expertise</p>
+                    </div>
+                    <div class="box">
+                        <h1>30+</h1>
+                        <p>Published research papers</p>
+                    </div>
+                    <div class="box">
+                        <h1>20+</h1>
+                        <p>Industry partnerships</p>
+                    </div>
+                    <div class="box">
+                        <h1>100%</h1>
+                        <p>Faculty with advanced degrees</p>
+                    </div>
+                    <div class="box">
+                        <h1>Global Reach</h1>
+                        <p>Faculty from 10+ countries</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="week" class="highlight-content">
+                <div class="boxes">
+                    <div class="box">
+                        <h1>Monday</h1>
+                        <p>Team meetings and project planning</p>
+                    </div>
+                    <div class="box">
+                        <h1>Tuesday</h1>
+                        <p>Workshops and skill-building sessions</p>
+                    </div>
+                    <div class="box">
+                        <h1>Wednesday</h1>
+                        <p>Hands-on project work</p>
+                    </div>
+                    <div class="box">
+                        <h1>Thursday</h1>
+                        <p>Client presentations and feedback</p>
+                    </div>
+                    <div class="box">
+                        <h1>Friday</h1>
+                        <p>Team retrospectives and wrap-up</p>
+                    </div>
+                    <div class="box">
+                        <h1>Saturday</h1>
+                        <p>Optional training and catch-up</p>
+                    </div>
+                    <div class="box">
+                        <h1>Sunday</h1>
+                        <p>Team bonding activities</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="careers" class="highlight-content">
+                <div class="boxes">
+                    <div class="box">
+                        <h1>Career Growth</h1>
+                        <p>Advancement paths</p>
+                    </div>
+                    <div class="box">
+                        <h1>Development</h1>
+                        <p>Workshops & mentoring</p>
+                    </div>
+                    <div class="box">
+                        <h1>Flexible Work</h1>
+                        <p>Remote & hybrid options</p>
+                    </div>
+                    <div class="box">
+                        <h1>Wellness</h1>
+                        <p>Healthcare benefits</p>
+                    </div>
+                    <div class="box">
+                        <h1>Inclusive</h1>
+                        <p>Diverse culture</p>
+                    </div>
+                    <div class="box">
+                        <h1>Global Teams</h1>
+                        <p>Worldwide collaboration</p>
+                    </div>
+                    <div class="box">
+                        <h1>Competitive Pay</h1>
+                        <p>Attractive packages</p>
+                    </div>
+                    <div class="box">
+                        <h1>Team Events</h1>
+                        <p>Connection-building</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="year-plan">
+        <h1>This is how your <span class="highlight">3 years</span><br> is gonna look like</h1>
+
+
+        <div class="year-tabs flex">
+            <div class="tab tab-active" onclick="switchTab(0)">
+                <h2>Year 1</h2>
+                <p>Build your Basics</p>
+            </div>
+            <div class="tab" onclick="switchTab(1)">
+                <h2>Year 2</h2>
+                <p>Get your hands dirty with some experience</p>
+            </div>
+            <div class="tab" onclick="switchTab(2)">
+                <h2>Year 3</h2>
+                <p>Craft your own journey</p>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div class="tab-panel panel-active">
+                <div class="content">
+                    <div class="part part-1 accordion">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 1</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>4 Months</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 1: Experiential Project 1</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 2</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>4 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 2: Experiential Project 2</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>4 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-panel">
+                <div class="content">
+                    <div class="part part-1 accordion">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 3</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>4 Months</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 1: Experiential Project 1</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 4</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 2: Experiential Project 2</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-panel">
+                <div class="content">
+                    <div class="part part-1 accordion">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 5</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>4 Months</span>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 1: Experiential Project 1</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Semester 6</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="part accordion ">
+                        <div class="accordion-item">
+                            <div class="flex accordion-item-header">
+                                <h3>Break 1: Experiential Project 1</h3>
+                                <div class="flex">
+                                    <i class="fas fa-calendar-alt icon"></i>
+                                    <span>2 Months</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item-body">
+                                <div class="accordion-item-body-content">
+                                    <hr>
+                                    <div class="grid">
+                                        <div>
+                                            <h4>Core Courses</h4>
+                                            <ul>
+                                                <li>Marketing 101</li>
+                                                <li>Statistics for Business (Quantitative techniques)</li>
+                                                <li>Fundamentals of Accounting</li>
+                                                <li>Business Strategy</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>Everyday Courses</h4>
+                                            <ul>
+                                                <li>Communication 101</li>
+                                                <li>Microsoft/Google tools</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="leader-section">
+        <h1>Learn from top <br><span class="highlight">business leaders</span> and CXOs</h1>
+        <div class="card-container">
+            <!-- Card Template -->
+            <div class="card">
+                <div class="category">Entrepreneurship</div>
+                <img class="person" src="https://i.ibb.co/87jzCNf/rb-6399.png"
+                    alt="Profile picture of a person with glasses, smiling">
+                <div class="name">Raghav Jhawar</div>
+                <div class="title">Founder @ state plate, Shark Tank</div>
+                <img class="info" src="https://i.ibb.co/S7R8pCn/rb-2149856794.png" alt="Shark Tank India">
+            </div>
+            <div class="card">
+                <div class="category">Entrepreneurship</div>
+                <img class="person" src="https://i.ibb.co/87jzCNf/rb-6399.png"
+                    alt="Profile picture of a person with glasses, smiling">
+                <div class="name">Raghav Jhawar</div>
+                <div class="title">Founder @ state plate, Shark Tank</div>
+                <img class="info" src="https://i.ibb.co/S7R8pCn/rb-2149856794.png" alt="Shark Tank India">
+            </div>
+            <div class="card">
+                <div class="category">Entrepreneurship</div>
+                <img class="person" src="https://i.ibb.co/87jzCNf/rb-6399.png"
+                    alt="Profile picture of a person with glasses, smiling">
+                <div class="name">Raghav Jhawar</div>
+                <div class="title">Founder @ state plate, Shark Tank</div>
+                <img class="info" src="https://i.ibb.co/S7R8pCn/rb-2149856794.png" alt="Shark Tank India">
+            </div>
+            <div class="card">
+                <div class="category">Entrepreneurship</div>
+                <img class="person" src="https://i.ibb.co/87jzCNf/rb-6399.png"
+                    alt="Profile picture of a person with glasses, smiling">
+                <div class="name">Raghav Jhawar</div>
+                <div class="title">Founder @ state plate, Shark Tank</div>
+                <img class="info" src="https://i.ibb.co/S7R8pCn/rb-2149856794.png" alt="Shark Tank India">
+            </div>
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
