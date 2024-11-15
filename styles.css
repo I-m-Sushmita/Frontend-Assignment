@@ -151,7 +151,8 @@ header nav ul li a:hover {
 }
 .hero .part2 img{
 width: 111px;
-    position: relative;}
+    position: relative;
+transform: rotate(24deg);}
 .hero h1 {
     font-size: 2.8em;
     margin-bottom: 1rem;
@@ -568,6 +569,12 @@ font-weight: bold;
     .part1 .hero-images img:nth-child(2) {
         display: none;
     }
+     .hero .part2 img{
+        width: 111px;
+        margin-left: 70px;
+        margin-top: 13px;
+        transform: none;
+        }
 }
 
 @media (max-width: 768px) {
@@ -594,10 +601,6 @@ font-weight: bold;
 
     .hero h1 {
         font-size: 2.2em;
-    }
-
-    .hero .highlight {
-        padding: 0 3px;
     }
 
     .hero-images img {
@@ -644,6 +647,10 @@ font-weight: bold;
     .part3 .hero-images img:nth-child(2) {
         display: none;
     }
+
+     .hero .part2 img{ width: 78px;
+    margin-left: 130px;
+    margin-top: 13px;}
 }
 
 
@@ -717,10 +724,6 @@ font-weight: bold;
 @media (max-width: 480px) {
     .year-plan h1 {
         font-size: 1.2rem;
-    }
-
-    .highlight {
-        font-size: 1rem;
     }
 
     .tabs {
